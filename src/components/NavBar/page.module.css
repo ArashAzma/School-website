@@ -1,0 +1,49 @@
+.title {
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+}
+
+.title::before {
+    content: '';
+    background-color: #0067A5;
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 100%;
+    height: 5px;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+}
+
+.title:hover::before {
+    bottom: 0;
+    height: 100%;
+}
+
+.title:hover {
+    color: white;
+}
+
+.Underline {
+    position: relative;
+}
+
+.Underline::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 4px;
+    background-color: #0074D9;
+    transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .Underline:hover::before {
+        left: 0;
+        right: auto;
+        width: 100%;
+    }
+}
