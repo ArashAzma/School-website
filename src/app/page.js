@@ -27,9 +27,9 @@ export default function Home() {
       </div>
     </div>
       <div className="flex flex-col md:flex-row justify-center items-center w-full gap-8 mt-8">
-        <Cards header={"HEHE"} span={"SPAN"}  text1="Why study at Shahriar?" text2="im gonna kill myself" icon="GiArchiveRegister"/>  
-        <Cards header={"HOHO"} span={"SPAN"}  text1="Campus Life" text2="im gonna kill myself" icon="GiVillage"/>  
-        <Cards header={"POS POS"} span={"SPAN"}  text1="News & Events" text2="im gonna kill myself" icon="GiWaxTablet"/>  
+        <Cards header={"Live"} span={"SPAN"}  text1="Why study at Shahriar?" text2="study here" icon="GiArchiveRegister"/>  
+        <Cards header={"Laugh"} span={"SPAN"}  text1="Campus Life" text2="live here" icon="GiVillage"/>  
+        <Cards header={"Love"} span={"SPAN"}  text1="News & Events" text2="read news" icon="GiWaxTablet"/>  
       </div>
       <div className="flex flex-col justify-center items-center h-[500px] bg-[#D8C4B6] mt-16 gap-12">
         <h1 className="text-3xl font-bold ">What our students have to say</h1>

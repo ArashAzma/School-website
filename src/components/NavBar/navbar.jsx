@@ -18,12 +18,6 @@ const Navbar = () => {
         </Link>
         <div className="flex gap-x-6 text-white font-semibold text-[24px]">
           <Link
-            href="/about"
-            className={`border-[#0067A5] ${styles.Underline} right-0 relative`}
-          >
-            about
-          </Link>
-          <Link
             href="/students"
             className={`border-[#0067A5] ${styles.Underline} right-0 relative`}
           >

@@ -18,4 +18,4 @@ const CartProvider = ({children}) => {
         <cartContext.Provider value={{likedBooks, bookedBooks, addLiked, addBooked, removeLiked, setLikedBooks}}>{children}</cartContext.Provider>
     )
 }
-export default CartProvider;
+export default CartProvider; 

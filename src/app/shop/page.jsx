@@ -75,13 +75,13 @@ const Shop = () => {
         </div>
         <div className="flex flex-col h-screen justify-center items-center ">
             <div className='bg-white w-fill rounded-lg p-6 px-20
-                            grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4
+                            grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3
                             overflow-hidden overflow-y-auto gap-4
             '>
                  {books ? (
                 books.map((book) => (
                 <div key={book.isbn13} className="text-[#524a45] flex rounded-xl justify-between bg-[#F5EFE7] group ">
-                    <div><img src={book.image}  className='max-w-[225px] hover:scale-105 smooth duration-300'/></div>
+                    <div><img src={book.image}  className='max-w-[175px] hover:scale-105 smooth duration-300'/></div>
                     <div className="flex flex-col relative  items-center justify-between overflow-hidden py-8 ">
                         <div className="flex absolute -top-10 right-5 gap-x-3 justify-center   group-hover:top-5  transition-all ease-in-out duration-300">
                             <button className="flex p-1 w-[40px] h-[40px] items-center justify-center text-black text-white text-3xl bg-[#D8C4B6] rounded-lg"
