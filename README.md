@@ -1,19 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# School website with a built in bookstore
 
-## Getting Started
+an online with an option to add to your cart and like and bookmark your books website and saving the user info in the database using:
+- Next.js
+- next-auth[credentials]
+- tailwind
+- bookstore api
+- mongoDb compass
+# main page
+![image](https://github.com/ArashAzma/School-website/assets/46264576/dad6823c-652e-491e-b21b-7506ccdd30ef)
 
-First, run the development server:
+# shop
+![image](https://github.com/ArashAzma/School-website/assets/46264576/688c4cd3-99fe-4aa5-af67-cdbcab1e7f9a)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+# login page
+![image](https://github.com/ArashAzma/School-website/assets/46264576/94a5d1f8-58c3-4f8a-804d-a251709f1b8b)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## to run this to your device:
+- 1 first clone this repo
+- 2 npm i
+- 3 npm run dev
+- 4 open http://localhost:3000
